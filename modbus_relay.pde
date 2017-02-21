@@ -19,11 +19,11 @@
  * File: $Id: MODBUS_Relay8.pde,v 0.1 2011/09/16 15:38:02 wolti Exp $
  */
 
-#include <mb.h>
-#include <mbport.h>
-#include <mbutils.h>
+#include "mb.h"
+#include "mbport.h"
+#include "mbutils.h"
 #include <EEPROM.h>
-#include <pin.h>
+#include "LOCAL_pin.h"
 
 #define LED_PIN 13  //PB5
 
